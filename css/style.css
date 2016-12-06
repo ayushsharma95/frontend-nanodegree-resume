@@ -11,7 +11,7 @@ h5,
 h6 {
   padding:0;
   margin:0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .clear-fix {
@@ -23,7 +23,10 @@ h6 {
 .project-entry {
   padding: 0 5%;
 }
+#projects img {
+  width: 40%;
 
+}
 h1 {
   font-size: 40px;
   color: #f5a623;
@@ -40,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
+
   font-size: 20px;
   color: #000;
   line-height: 22px;
@@ -61,7 +64,9 @@ h5 {
 
 }
 
-
+#role {
+  color: #989898;
+}
 .date-text {
   font-style: italic;
   font-size: 14px;
@@ -83,6 +88,7 @@ p {
   font-size: 14px;
   color: #333;
   line-height: 21px;
+
 }
 
 a {
@@ -93,9 +99,8 @@ a {
 }
 
 .welcome-message {
-  font-style: italic;
   font-size: 18px;
-  color: #f3f3f3;
+  color: #999999;
   line-height: 28px;
 }
 
@@ -106,6 +111,7 @@ a {
 
 .orange {
   background-color: #f5ae23;
+  color: #fff;
 }
 
 .orange-text {
@@ -155,6 +161,9 @@ a {
 ul {
   list-style-type: none;
 }
+li {
+  display: block;
+}
 
 .biopic {
   float: left;
@@ -163,8 +172,14 @@ ul {
   display: none;
 }
 
+hr {
+  height: 1px;
+  color: #989898;
+  background: #989898;
+  border: 0;
+}
 img {
-  padding: 10px;
+  padding: 10px 0 10px 0;
 }
 
 span {
